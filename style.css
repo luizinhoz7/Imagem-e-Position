@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+img {
+    height: 300px;
+    width: 200px;
+    border: 2px solid gold;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+   cursor: pointer;
+    height: 320px;
+}
+
+.container {
+   background-color: orange;
+   height: 505px;
+   width: 100%;
+}
+
+.card-1 {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.card-2 {
+    position: absolute;
+    top: 80px;
+    left: 300px
+}
+
+.card-3 {
+    position: absolute;
+    top: 80px;
+    left: 600px;
+}
+
+.card-4 {
+    position: absolute;
+    top: 80px;
+    left: 900px;
+}
